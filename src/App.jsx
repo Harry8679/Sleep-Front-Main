@@ -1,7 +1,8 @@
 import { Provider } from "react-redux";
 import { store } from "./store/store";
 import ScrollToTop from "@/components/common/ScrollTop";
-import "../public/assets/scss/index.scss";
+// import "../public/assets/scss/index.scss";
+import './assets/scss/index.scss';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages";
